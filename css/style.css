@@ -12,3 +12,39 @@
 .bg-azul-escuro {
   background-color: var(--azul-escuro);
 }
+
+.bg-azul-marinho {
+  background-color: var(--azul-marinho);
+}
+
+.text-amarelo-luz {
+  color: var(--amarelo-luz);
+}
+
+.btn-amarelo-luz {
+  color: var(--azul-marinho);
+  background-color: var(--amarelo-luz);
+  border-color: var(--amarelo-luz);
+}
+
+.btn-amarelo-luz:hover {
+  color: var(--azul-marinho);
+  background-color: var(--amarelo-dourado);
+  border-color: var(--amarelo-dourado);
+}
+
+.btn-outline-ciano {
+  color: var(--azul-ciano);
+  border-color: var(--azul-ciano);
+}
+
+.btn-outline-ciano:hover {
+  color: var(--azul-marinho);
+  background-color: var(--azul-ciano);
+  border-color: var(--azul-ciano);
+}
+
+.imagem-carrossel {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
