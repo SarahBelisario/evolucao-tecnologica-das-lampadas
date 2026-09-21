@@ -83,8 +83,42 @@ h6 {
 }
 
 .btn-amarelo-luz:focus,
-.btn-outline-ciano:focus {
+.btn-outline-ciano:focus,
+.btn-ciano:focus {
   outline: 2px solid var(--branco-suave);
   outline-offset: 3px;
   box-shadow: none;
+}
+
+.text-azul-marinho {
+  color: var(--azul-marinho);
+}
+
+.historia-incandescente {
+  background-color: rgba(255, 194, 71, 0.1);
+}
+
+.historia-fluorescente {
+  background-color: rgba(92, 214, 232, 0.2);
+}
+
+.historia-led {
+  background-color: rgba(92, 214, 232, 0.1);
+}
+
+.historia-inteligente {
+  background-color: rgba(141, 91, 167, 0.123);
+}
+
+.btn-ciano {
+  color: var(--azul-marinho);
+  background-color: var(--azul-ciano);
+  border-color: var(--azul-ciano);
+}
+
+.btn-ciano:hover,
+.btn-ciano:focus {
+  color: var(--azul-marinho);
+  background-color: var(--amarelo-luz);
+  border-color: var(--amarelo-luz);
 }
