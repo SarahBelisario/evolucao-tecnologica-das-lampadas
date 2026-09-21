@@ -7,12 +7,12 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="bootstrap-icons-1.13.1/bootstrap-icons.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Poppins:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap"
       rel="stylesheet" />
 
     <title>Início | Evolução tecnológica das lâmpadas</title>
@@ -42,19 +42,19 @@
           <div class="collapse navbar-collapse" id="menuPrincipal">
             <ul class="navbar-nav ms-auto gap-md-3">
               <li class="nav-item">
-                <a class="nav-link text-warning" href="#inicio" aria-current="page">Início</a>
+                <a class="nav-link active" href="#inicio" aria-current="page">Início</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-white" href="#cartilha">Cartilha</a>
+                <a class="nav-link" href="#cartilha">Cartilha</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-white" href="#historia">História</a>
+                <a class="nav-link" href="#historia">História</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-white" href="#sobre">Sobre</a>
+                <a class="nav-link" href="#sobre">Sobre</a>
               </li>
             </ul>
           </div>
@@ -63,39 +63,67 @@
     </header>
 
     <main id="inicio">
-      <section class="bg-azul-marinho text-white py-5" aria-labelledby="titulo-principal">
+
+      <section class="bg-azul-marinho text-branco-suave py-5" aria-labelledby="titulo-principal">
         <div class="container py-4">
+
           <div class="row align-items-center gx-3 gy-5">
             <div class="col-lg-5">
-              <p class="text-amarelo-luz text-uppercase fw-semibold mb-2">Da chama ao LED</p>
+              <p class="text-amarelo-luz text-uppercase peso-semibold mb-2">Da chama ao LED</p>
 
-              <h1 id="titulo-principal" class="fs-1 fw-bold lh-sm mb-3">
+              <h1 id="titulo-principal" class="lh-sm mb-3">
                 A evolução tecnológica<br />
                 das <span class="text-amarelo-luz">lâmpadas</span>
               </h1>
 
-              <p class="fs-6 lh-lg mb-4">
+              <p class="lh-lg mb-4">
                 Uma jornada fascinante, da luz das primeiras fontes de fogo às lâmpadas inteligentes e eficientes que
                 iluminam o nosso mundo. Descubra como a tecnologia transformou a maneira de viver, trabalhar e sonhar.
               </p>
 
               <div class="d-flex flex-wrap gap-3">
-                <a class="btn btn-amarelo-luz rounded-pill px-4 py-3 fw-semibold" href="#historia">
+                <a class="btn btn-amarelo-luz rounded-pill px-4 py-3 peso-semibold" href="#historia">
                   <span class="bi bi-arrow-right" aria-hidden="true"></span>
                   Explorar a história
                 </a>
 
-                <a class="btn btn-outline-ciano rounded-pill px-4 py-3 fw-semibold" href="#cartilha">
+                <a class="btn btn-outline-ciano rounded-pill px-4 py-3 peso-semibold" href="#cartilha">
                   <span class="bi bi-book" aria-hidden="true"></span>
                   Aprenda mais
                 </a>
               </div>
             </div>
-            
-          </div>
+</div>
+
         </div>
       </section>
-    </main>
+
+</main>
+
+<aside class="fixed-bottom col-10 col-sm-6 ms-auto p-3 d-md-none pe-none" aria-label="Quiz rápido">
+      <div class="collapse pe-auto" id="quiz-celular">
+        <div class="bg-azul-marinho text-branco-suave rounded-3 shadow p-3 mb-3">
+          <h2 class="fs-5 text-amarelo-luz">
+            <span class="bi bi-lightbulb me-2" aria-hidden="true"></span>Você sabia?
+          </h2>
+          <p class="small">Os LEDs transformam mais energia em luz e duram muito mais que as lâmpadas incandescentes, podendo funcionar por até 25.000 horas ou mais!</p>
+          <hr />
+          <a class="btn btn-ciano w-100 d-flex align-items-center justify-content-between gap-2 peso-semibold" href="cartilha.html">
+            <span class="bi bi-cpu ms-1" aria-hidden="true"></span>
+            Quiz rápido
+            <span class="bi bi-arrow-right" aria-hidden="true"></span>
+          </a>
+          <p class="small mt-3 mb-0">Desafie seu conhecimento sobre a evolução das lâmpadas!</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <button class="btn btn-ciano rounded-circle shadow p-3 lh-1 pe-auto" type="button"
+          data-bs-toggle="collapse" data-bs-target="#quiz-celular" aria-expanded="false"
+          aria-controls="quiz-celular" aria-label="Abrir ou fechar o quadro do quiz">
+          <span class="bi bi-cpu fs-4" aria-hidden="true"></span>
+        </button>
+      </div>
+    </aside>
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

@@ -7,6 +7,42 @@
   --branco-marfim: #f7f4ea;
   --branco-suave: #f5f7fa;
   --cinza-azulado: #526174;
+  --fonte-titulos: "Montserrat", sans-serif;
+  --fonte-texto: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--fonte-texto);
+  color: var(--cinza-azulado);
+  background-color: var(--branco-marfim);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fonte-titulos);
+  font-weight: 700;
+}
+
+.peso-semibold {
+  font-weight: 600;
+}
+
+.text-branco-suave {
+  color: var(--branco-suave);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--branco-suave);
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: var(--amarelo-luz);
 }
 
 .bg-azul-escuro {
@@ -27,7 +63,8 @@
   border-color: var(--amarelo-luz);
 }
 
-.btn-amarelo-luz:hover {
+.btn-amarelo-luz:hover,
+.btn-amarelo-luz:focus {
   color: var(--azul-marinho);
   background-color: var(--amarelo-dourado);
   border-color: var(--amarelo-dourado);
@@ -38,8 +75,16 @@
   border-color: var(--azul-ciano);
 }
 
-.btn-outline-ciano:hover {
+.btn-outline-ciano:hover,
+.btn-outline-ciano:focus {
   color: var(--azul-marinho);
   background-color: var(--azul-ciano);
   border-color: var(--azul-ciano);
+}
+
+.btn-amarelo-luz:focus,
+.btn-outline-ciano:focus {
+  outline: 2px solid var(--branco-suave);
+  outline-offset: 3px;
+  box-shadow: none;
 }
