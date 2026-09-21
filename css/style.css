@@ -1,3 +1,4 @@
+/* GUIA 11 - Paleta e fontes reutilizáveis. Veja o mesmo número no DOCX. */
 :root {
   --azul-marinho: #071a2b;
   --azul-escuro: #0c2740;
@@ -11,6 +12,7 @@
   --fonte-texto: "Inter", sans-serif;
 }
 
+/* GUIA 12 - Texto e títulos. Veja o mesmo número no DOCX. */
 body {
   font-family: var(--fonte-texto);
   color: var(--cinza-azulado);
@@ -31,6 +33,7 @@ h6 {
   font-weight: 600;
 }
 
+/* GUIA 13 - Cores do texto dos fundos e do menu. Veja o mesmo número no DOCX. */
 .text-branco-suave,
 .navbar-dark .navbar-nav .nav-link {
   color: var(--branco-suave);
@@ -54,6 +57,7 @@ h6 {
   color: var(--amarelo-luz);
 }
 
+/* GUIA 14 - Base e variações dos botões. Veja o mesmo número no DOCX. */
 .btn-personalizado {
   color: var(--botao-texto, var(--azul-marinho));
   background-color: var(--botao-fundo);
@@ -90,6 +94,7 @@ h6 {
   --botao-destaque: var(--azul-ciano);
 }
 
+/* GUIA 15 - Cor dos títulos e fundos dos cartões. Veja o mesmo número no DOCX. */
 .text-azul-marinho {
   color: var(--azul-marinho);
 }
