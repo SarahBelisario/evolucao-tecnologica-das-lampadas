@@ -43,8 +43,3 @@
   background-color: var(--azul-ciano);
   border-color: var(--azul-ciano);
 }
-
-.imagem-carrossel {
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-}
