@@ -27,14 +27,11 @@ h6 {
   font-weight: 700;
 }
 
-.peso-semibold {
+.texto-seminegrito {
   font-weight: 600;
 }
 
-.text-branco-suave {
-  color: var(--branco-suave);
-}
-
+.text-branco-suave,
 .navbar-dark .navbar-nav .nav-link {
   color: var(--branco-suave);
 }
@@ -57,68 +54,58 @@ h6 {
   color: var(--amarelo-luz);
 }
 
-.btn-amarelo-luz {
+.btn-personalizado {
+  color: var(--botao-texto, var(--azul-marinho));
+  background-color: var(--botao-fundo);
+  border-color: var(--botao-borda, var(--botao-fundo));
+}
+
+.btn-personalizado:hover,
+.btn-personalizado:focus {
   color: var(--azul-marinho);
-  background-color: var(--amarelo-luz);
-  border-color: var(--amarelo-luz);
+  background-color: var(--botao-destaque);
+  border-color: var(--botao-destaque);
 }
 
-.btn-amarelo-luz:hover,
-.btn-amarelo-luz:focus {
-  color: var(--azul-marinho);
-  background-color: var(--amarelo-dourado);
-  border-color: var(--amarelo-dourado);
-}
-
-.btn-outline-ciano {
-  color: var(--azul-ciano);
-  border-color: var(--azul-ciano);
-}
-
-.btn-outline-ciano:hover,
-.btn-outline-ciano:focus {
-  color: var(--azul-marinho);
-  background-color: var(--azul-ciano);
-  border-color: var(--azul-ciano);
-}
-
-.btn-amarelo-luz:focus,
-.btn-outline-ciano:focus,
-.btn-ciano:focus {
+.btn-personalizado:focus {
   outline: 2px solid var(--branco-suave);
   outline-offset: 3px;
   box-shadow: none;
+}
+
+.btn-amarelo-luz {
+  --botao-fundo: var(--amarelo-luz);
+  --botao-destaque: var(--amarelo-dourado);
+}
+
+.btn-ciano {
+  --botao-fundo: var(--azul-ciano);
+  --botao-destaque: var(--amarelo-luz);
+}
+
+.btn-ciano-contorno {
+  --botao-texto: var(--azul-ciano);
+  --botao-fundo: transparent;
+  --botao-borda: var(--azul-ciano);
+  --botao-destaque: var(--azul-ciano);
 }
 
 .text-azul-marinho {
   color: var(--azul-marinho);
 }
 
-.historia-incandescente {
+.bg-amarelo-suave {
   background-color: rgba(255, 194, 71, 0.1);
 }
 
-.historia-fluorescente {
+.bg-ciano-claro {
   background-color: rgba(92, 214, 232, 0.2);
 }
 
-.historia-led {
+.bg-ciano-suave {
   background-color: rgba(92, 214, 232, 0.1);
 }
 
-.historia-inteligente {
+.bg-lilas-suave {
   background-color: rgba(141, 91, 167, 0.123);
-}
-
-.btn-ciano {
-  color: var(--azul-marinho);
-  background-color: var(--azul-ciano);
-  border-color: var(--azul-ciano);
-}
-
-.btn-ciano:hover,
-.btn-ciano:focus {
-  color: var(--azul-marinho);
-  background-color: var(--amarelo-luz);
-  border-color: var(--amarelo-luz);
 }
