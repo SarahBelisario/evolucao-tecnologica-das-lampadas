@@ -1,4 +1,4 @@
-/* GUIA 11 - Paleta e fontes reutilizáveis. Veja o mesmo número no DOCX. */
+/* GUIA 11 */
 :root {
   --azul-marinho: #071a2b;
   --azul-escuro: #0c2740;
@@ -12,7 +12,7 @@
   --fonte-texto: "Inter", sans-serif;
 }
 
-/* GUIA 12 - Texto e títulos. Veja o mesmo número no DOCX. */
+/* GUIA 12 */
 body {
   font-family: var(--fonte-texto);
   color: var(--cinza-azulado);
@@ -33,7 +33,7 @@ h6 {
   font-weight: 600;
 }
 
-/* GUIA 13 - Cores do texto dos fundos e do menu. Veja o mesmo número no DOCX. */
+/* GUIA 13 */
 .text-branco-suave,
 .navbar-dark .navbar-nav .nav-link {
   color: var(--branco-suave);
@@ -57,7 +57,7 @@ h6 {
   color: var(--amarelo-luz);
 }
 
-/* GUIA 14 - Base e variações dos botões. Veja o mesmo número no DOCX. */
+/* GUIA 14 */
 .btn-personalizado {
   color: var(--botao-texto, var(--azul-marinho));
   background-color: var(--botao-fundo);
@@ -94,7 +94,7 @@ h6 {
   --botao-destaque: var(--azul-ciano);
 }
 
-/* GUIA 15 - Cor dos títulos e fundos dos cartões. Veja o mesmo número no DOCX. */
+/* GUIA 15 */
 .text-azul-marinho {
   color: var(--azul-marinho);
 }
@@ -113,4 +113,36 @@ h6 {
 
 .bg-lilas-suave {
   background-color: rgba(141, 91, 167, 0.123);
+}
+/* Cores dos ícones usados no img ( filtros aplicados somente aos ícones ) - lembre-se disso */
+:root {
+  --filtro-icone-azul-marinho: brightness(0) saturate(100%) invert(7%) sepia(26.0172%) saturate(1415.1159%)
+    hue-rotate(166.724deg) brightness(125.2178%) contrast(100.4%);
+  --filtro-icone-ciano: brightness(0) saturate(100%) invert(49.5159%) sepia(56.64%) saturate(509.5575%)
+    hue-rotate(157.734deg) brightness(146.4315%) contrast(81.9508%);
+  --filtro-icone-amarelo-luz: brightness(0) saturate(100%) invert(70.718%) sepia(15.9772%) saturate(1612.7159%)
+    hue-rotate(-6.0572deg) brightness(110.0978%) contrast(100.16%);
+  --filtro-icone-branco-suave: brightness(0) saturate(100%) invert(48.0359%) sepia(25.3024%) saturate(14%)
+    hue-rotate(176.8478deg) brightness(148.9915%) contrast(183.6708%);
+}
+
+.icone-azul-marinho {
+  filter: var(--filtro-icone-azul-marinho);
+}
+
+.icone-ciano {
+  filter: var(--filtro-icone-ciano);
+}
+
+.icone-amarelo-luz {
+  filter: var(--filtro-icone-amarelo-luz);
+}
+
+.icone-branco-suave {
+  filter: var(--filtro-icone-branco-suave);
+}
+
+.btn-ciano-contorno:hover .icone-ciano,
+.btn-ciano-contorno:focus .icone-ciano {
+  filter: var(--filtro-icone-azul-marinho);
 }
