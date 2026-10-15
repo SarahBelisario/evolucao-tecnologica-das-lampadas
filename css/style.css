@@ -12,7 +12,6 @@
   --fonte-texto: "Inter", sans-serif;
 }
 
-/* GUIA 12 */
 body {
   font-family: var(--fonte-texto);
   color: var(--cinza-azulado);
@@ -33,7 +32,6 @@ h6 {
   font-weight: 600;
 }
 
-/* GUIA 13 */
 .text-branco-suave,
 .navbar-dark .navbar-nav .nav-link {
   color: var(--branco-suave);
@@ -57,7 +55,6 @@ h6 {
   color: var(--amarelo-luz);
 }
 
-/* GUIA 14 */
 .btn-personalizado {
   color: var(--botao-texto, var(--azul-marinho));
   background-color: var(--botao-fundo);
@@ -94,7 +91,6 @@ h6 {
   --botao-destaque: var(--azul-ciano);
 }
 
-/* GUIA 15 */
 .text-azul-marinho {
   color: var(--azul-marinho);
 }
@@ -114,7 +110,7 @@ h6 {
 .bg-lilas-suave {
   background-color: rgba(141, 91, 167, 0.123);
 }
-/* Cores dos ícones usados no img ( filtros aplicados somente aos ícones ) - lembre-se disso */
+
 :root {
   --filtro-icone-azul-marinho: brightness(0) saturate(100%) invert(7%) sepia(26.0172%) saturate(1415.1159%)
     hue-rotate(166.724deg) brightness(125.2178%) contrast(100.4%);
