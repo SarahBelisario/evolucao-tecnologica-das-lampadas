@@ -1,12 +1,12 @@
-# Evolução Tecnológica das Lâmpadas 💡
+# Evolução das lâmpadas 💡
 
 > **Status do Projeto:** ⚠️ Em Desenvolvimento 🛠️
 
-Este repositório é dedicado ao desenvolvimento do **Projeto Integrador**, focado em apresentar a evolução tecnológica das lâmpadas que esta sendo desenvolvido em conjunto com a equipe de formação em Eletrica.
+Este repositório é dedicado ao desenvolvimento do **Projeto Integrador**, focado em apresentar a evolução das lâmpadas que esta sendo desenvolvido em conjunto com a equipe de formação em Eletrica.
 
 ---
 
-🔗 **Acesse o projeto online:** [Evolução Tecnológica das Lâmpadas](https://evolucao-tecnologica-das-lampadas.vercel.app/)
+🔗 **Acesse o projeto online:** [Evolução das lâmpadas](https://evolucao-tecnologica-das-lampadas.vercel.app/)
 
 ## 📸 Fotos
 
