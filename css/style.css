@@ -120,6 +120,28 @@ h6 {
   background-color: rgba(141, 91, 167, 0.123);
 }
 
+.imagem-cartilha {
+  object-fit: contain;
+}
+
+@media (min-width: 992px) {
+  .sequencia-historia > li {
+    position: relative;
+  }
+
+  .sequencia-historia > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    background: url("../bootstrap-icons-1.13.1/arrow-right.svg") center / contain no-repeat;
+    filter: var(--filtro-icone-ciano);
+  }
+}
+
 .icone-azul-marinho {
   filter: var(--filtro-icone-azul-marinho);
 }
