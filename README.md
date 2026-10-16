@@ -8,14 +8,9 @@ Este repositório é dedicado ao desenvolvimento do **Projeto Integrador**, foca
 
 🔗 **Acesse o projeto online:** [Evolução das lâmpadas](https://evolucao-tecnologica-das-lampadas.vercel.app/)
 
-## 📸 Fotos
 
-| Protótipo | Descrição |
-| :---: | :--- |
-| <img src="https://github.com/user-attachments/assets/53df292e-8d36-4211-86e6-72e3e98a4d5f" width="400" alt="versão web" /> | Versão Web |
-| <img src="https://github.com/user-attachments/assets/eee9ead2-b656-4bc6-89c0-1aa2d6ffcab4" width="200" alt="versão mobile"/> | Versão Mobile |
+<img width="1844" height="939" alt="Captura de tela 2026-10-15 210912" src="https://github.com/user-attachments/assets/7eef9d65-fb8b-4c60-9cfe-7f89685d5d65" />
 
----
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -26,10 +21,16 @@ O desenvolvimento da interface tem como foco principal o uso do **Bootstrap 5**.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 👥 Integrantes
+## 👥 Integrantes - Site
 
-* x
-* x
-* x
-* x
-* x
+* Sarah Belisario
+* Isabela
+* Sthefany Garcia
+* Gabriela
+* Heloisa
+
+## 👥 Integrantes - Conteúdo Informativo
+
+* Carlos Eduardo
+* Larissa
+* Emanoela
