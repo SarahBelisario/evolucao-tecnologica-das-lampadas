@@ -1,3 +1,17 @@
 #quiz {
   border: 1px solid var(--amarelo-dourado);
 }
+
+#quiz fieldset:disabled .form-check-label {
+  opacity: 1;
+}
+
+#quiz .btn:disabled {
+  color: var(--branco-suave);
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+
+#quiz #tentar {
+  --botao-destaque: var(--azul-ciano);
+}

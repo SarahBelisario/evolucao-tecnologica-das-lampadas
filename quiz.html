@@ -61,7 +61,7 @@
           <p class="text-center mb-4">Teste seus conhecimentos sobre essa jornada pela luz.</p>
 
           <form id="quiz" class="bg-light rounded-3 p-4 p-md-5 text-azul-marinho">
-            <fieldset class="mb-4 pb-4 border-bottom">
+            <fieldset data-correta="b" class="mb-4 pb-4 border-bottom">
               <legend class="fs-6 fw-bold mb-3">1. Antes da iluminação elétrica, como as pessoas produziam luz?</legend>
               <div class="form-check mb-2">
                 <input class="form-check-input" type="radio" name="q1" id="q1-a" value="a">
@@ -81,7 +81,7 @@
               </div>
             </fieldset>
 
-            <fieldset class="mb-4 pb-4 border-bottom">
+            <fieldset data-correta="c" class="mb-4 pb-4 border-bottom">
               <legend class="fs-6 fw-bold mb-3">2. Qual material era usado no filamento da lâmpada aperfeiçoada por Thomas Edison em 1879?</legend>
               <div class="form-check mb-2">
                 <input class="form-check-input" type="radio" name="q2" id="q2-a" value="a">
@@ -101,7 +101,7 @@
               </div>
             </fieldset>
 
-            <fieldset class="mb-4 pb-4 border-bottom">
+            <fieldset data-correta="a" class="mb-4 pb-4 border-bottom">
               <legend class="fs-6 fw-bold mb-3">3. Na lâmpada incandescente, a maior parte da energia elétrica é transformada em quê?</legend>
               <div class="form-check mb-2">
                 <input class="form-check-input" type="radio" name="q3" id="q3-a" value="a">
@@ -121,7 +121,7 @@
               </div>
             </fieldset>
 
-            <fieldset class="mb-4 pb-4 border-bottom">
+            <fieldset data-correta="d" class="mb-4 pb-4 border-bottom">
               <legend class="fs-6 fw-bold mb-3">4. Nas lâmpadas fluorescentes, qual revestimento transforma a radiação ultravioleta em luz visível?</legend>
               <div class="form-check mb-2">
                 <input class="form-check-input" type="radio" name="q4" id="q4-a" value="a">
@@ -141,7 +141,7 @@
               </div>
             </fieldset>
 
-            <fieldset class="mb-4">
+            <fieldset data-correta="b" class="mb-4">
               <legend class="fs-6 fw-bold mb-3">5. Como o LED produz luz?</legend>
               <div class="form-check mb-2">
                 <input class="form-check-input" type="radio" name="q5" id="q5-a" value="a">
@@ -161,9 +161,11 @@
               </div>
             </fieldset>
 
+            <p id="resultado" class="text-center fw-bold" role="status"></p>
+
             <div class="d-flex flex-wrap justify-content-center gap-3">
               <button id="enviar" type="submit" class="btn btn-personalizado btn-amarelo-luz rounded-pill px-4 py-2 fw-bold" disabled>Enviar respostas</button>
-              <button id="tentar" type="reset" class="btn btn-secondary rounded-pill px-4 py-2" disabled>Tentar de novo</button>
+              <button id="tentar" type="reset" class="btn btn-personalizado btn-ciano rounded-pill px-4 py-2 fw-bold" disabled>Tentar de novo</button>
             </div>
           </form>
         </div>
