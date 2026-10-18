@@ -1,0 +1,30 @@
+.quiz-flutuante {
+  width: min(22rem, 100%);
+  bottom: var(--limite-rodape, 0px);
+  z-index: 1030;
+}
+
+.quiz-painel {
+  max-height: max(0px, calc(100dvh - 7rem - var(--limite-rodape, 0px)));
+  overflow-y: auto;
+}
+
+.quiz-botao {
+  animation: quiz-pulo 2.5s ease-in-out infinite;
+}
+
+.quiz-botao:hover,
+.quiz-botao:focus-visible {
+  animation-play-state: paused;
+}
+
+@keyframes quiz-pulo {
+  0%, 40%, 100% { transform: translateY(0); }
+  20% { transform: translateY(-6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-botao {
+    animation: none;
+  }
+}
