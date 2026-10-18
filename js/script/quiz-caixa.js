@@ -2,6 +2,8 @@ const quiz = document.getElementById("quiz-celular");
 const botao = document.querySelector('[data-bs-target="#quiz-celular"]');
 const flutuante = document.querySelector(".quiz-flutuante");
 const rodape = document.querySelector("footer");
+if (!quiz || !botao || !flutuante || !rodape) return;
+
 const desktop = window.matchMedia("(min-width: 768px)").matches;
 
 quiz.classList.toggle("show", desktop);
