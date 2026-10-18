@@ -1,0 +1,19 @@
+.btn-ciano-contorno {
+  --botao-texto: var(--azul-ciano);
+  --botao-fundo: transparent;
+  --botao-borda: var(--azul-ciano);
+  --botao-destaque: var(--azul-ciano);
+}
+
+.bg-lilas-suave {
+  background-color: rgba(141, 91, 167, 0.123);
+}
+
+.icone-ciano {
+  filter: var(--filtro-icone-ciano);
+}
+
+.btn-ciano-contorno:hover .icone-ciano,
+.btn-ciano-contorno:focus .icone-ciano {
+  filter: var(--filtro-icone-azul-marinho);
+}

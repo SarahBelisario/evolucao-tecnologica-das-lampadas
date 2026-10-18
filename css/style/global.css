@@ -1,26 +1,3 @@
-/* GUIA 11 */
-:root {
-  --azul-marinho: #071a2b;
-  --azul-escuro: #0c2740;
-  --amarelo-luz: #ffc247;
-  --amarelo-dourado: #ffd76a;
-  --azul-ciano: #5cd6e8;
-  --branco-marfim: #f7f4ea;
-  --branco-suave: #f5f7fa;
-  --cinza-azulado: #526174;
-  --fonte-titulos: "Montserrat", sans-serif;
-  --fonte-texto: "Inter", sans-serif;
-
---filtro-icone-azul-marinho: brightness(0) saturate(100%) invert(7%) sepia(26.0172%) saturate(1415.1159%)
-  hue-rotate(166.724deg) brightness(125.2178%) contrast(100.4%);
---filtro-icone-ciano: brightness(0) saturate(100%) invert(49.5159%) sepia(56.64%) saturate(509.5575%)
-  hue-rotate(157.734deg) brightness(146.4315%) contrast(81.9508%);
---filtro-icone-amarelo-luz: brightness(0) saturate(100%) invert(70.718%) sepia(15.9772%) saturate(1612.7159%)
-  hue-rotate(-6.0572deg) brightness(110.0978%) contrast(100.16%);
---filtro-icone-branco-suave: brightness(0) saturate(100%) invert(48.0359%) sepia(25.3024%) saturate(14%)
-  hue-rotate(176.8478deg) brightness(148.9915%) contrast(183.6708%);
-}
-
 body {
   font-family: var(--fonte-texto);
   color: var(--cinza-azulado);
@@ -93,13 +70,6 @@ h6 {
   --botao-destaque: var(--amarelo-luz);
 }
 
-.btn-ciano-contorno {
-  --botao-texto: var(--azul-ciano);
-  --botao-fundo: transparent;
-  --botao-borda: var(--azul-ciano);
-  --botao-destaque: var(--azul-ciano);
-}
-
 .text-azul-marinho {
   color: var(--azul-marinho);
 }
@@ -116,38 +86,8 @@ h6 {
   background-color: rgba(92, 214, 232, 0.1);
 }
 
-.bg-lilas-suave {
-  background-color: rgba(141, 91, 167, 0.123);
-}
-
-.imagem-cartilha {
-  object-fit: contain;
-}
-
-@media (min-width: 992px) {
-  .sequencia-historia > li {
-    position: relative;
-  }
-
-  .sequencia-historia > li:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -8px;
-    width: 16px;
-    height: 16px;
-    transform: translateY(-50%);
-    background: url("../bootstrap-icons-1.13.1/arrow-right.svg") center / contain no-repeat;
-    filter: var(--filtro-icone-ciano);
-  }
-}
-
 .icone-azul-marinho {
   filter: var(--filtro-icone-azul-marinho);
-}
-
-.icone-ciano {
-  filter: var(--filtro-icone-ciano);
 }
 
 .icone-amarelo-luz {
@@ -156,11 +96,6 @@ h6 {
 
 .icone-branco-suave {
   filter: var(--filtro-icone-branco-suave);
-}
-
-.btn-ciano-contorno:hover .icone-ciano,
-.btn-ciano-contorno:focus .icone-ciano {
-  filter: var(--filtro-icone-azul-marinho);
 }
 
 .quiz-flutuante {
