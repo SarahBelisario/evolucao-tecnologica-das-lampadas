@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap"
       rel="stylesheet" />
     <link rel="icon" href="img/logo-icon.svg" type="image/svg+xml" />
-    <title>Início | Evolução das lâmpadas</title>
+    <title>Quiz | Evolução das lâmpadas</title>
   </head>
 
   <body>
@@ -38,7 +38,7 @@
           <div class="collapse navbar-collapse" id="menuPrincipal">
             <ul class="navbar-nav ms-auto gap-md-3">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Início</a>
+                <a class="nav-link" href="index.html">Início</a>
               </li>
 
               <li class="nav-item">
@@ -54,8 +54,120 @@
       </nav>
     </header>
 
-    <main id="inicio">
+    <main id="inicio" class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-9">
+          <h1 class="text-center text-dark mb-3">Quiz: evolução das lâmpadas</h1>
+          <p class="text-center mb-4">Teste seus conhecimentos sobre essa jornada pela luz.</p>
 
+          <form id="quiz" class="bg-light rounded-3 p-4 p-md-5 text-azul-marinho" style="border: 1px solid var(--amarelo-dourado);">
+            <fieldset class="mb-4 pb-4 border-bottom">
+              <legend class="fs-6 fw-bold mb-3">1. Antes da iluminação elétrica, como as pessoas produziam luz?</legend>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q1" id="q1-a" value="a">
+                <label class="form-check-label" for="q1-a"> Com semicondutores</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q1" id="q1-b" value="b">
+                <label class="form-check-label" for="q1-b"> Pela combustão de madeira e resinas orgânicas</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q1" id="q1-c" value="c">
+                <label class="form-check-label" for="q1-c"> Com vapor de mercúrio</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q1" id="q1-d" value="d">
+                <label class="form-check-label" for="q1-d"> Com filamentos de tungstênio</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="mb-4 pb-4 border-bottom">
+              <legend class="fs-6 fw-bold mb-3">2. Qual material era usado no filamento da lâmpada aperfeiçoada por Thomas Edison em 1879?</legend>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q2" id="q2-a" value="a">
+                <label class="form-check-label" for="q2-a"> Cobre</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q2" id="q2-b" value="b">
+                <label class="form-check-label" for="q2-b"> Alumínio</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q2" id="q2-c" value="c">
+                <label class="form-check-label" for="q2-c"> Carbono</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q2" id="q2-d" value="d">
+                <label class="form-check-label" for="q2-d"> Mercúrio</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="mb-4 pb-4 border-bottom">
+              <legend class="fs-6 fw-bold mb-3">3. Na lâmpada incandescente, a maior parte da energia elétrica é transformada em quê?</legend>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q3" id="q3-a" value="a">
+                <label class="form-check-label" for="q3-a"> Calor</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q3" id="q3-b" value="b">
+                <label class="form-check-label" for="q3-b"> Luz visível</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q3" id="q3-c" value="c">
+                <label class="form-check-label" for="q3-c"> Som</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q3" id="q3-d" value="d">
+                <label class="form-check-label" for="q3-d"> Movimento</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="mb-4 pb-4 border-bottom">
+              <legend class="fs-6 fw-bold mb-3">4. Nas lâmpadas fluorescentes, qual revestimento transforma a radiação ultravioleta em luz visível?</legend>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q4" id="q4-a" value="a">
+                <label class="form-check-label" for="q4-a"> Querosene</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q4" id="q4-b" value="b">
+                <label class="form-check-label" for="q4-b"> Tungstênio</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q4" id="q4-c" value="c">
+                <label class="form-check-label" for="q4-c"> Carbono</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q4" id="q4-d" value="d">
+                <label class="form-check-label" for="q4-d"> Fósforo</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="mb-4">
+              <legend class="fs-6 fw-bold mb-3">5. Como o LED produz luz?</legend>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q5" id="q5-a" value="a">
+                <label class="form-check-label" for="q5-a"> Pela queima de combustível</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q5" id="q5-b" value="b">
+                <label class="form-check-label" for="q5-b"> Por semicondutores que recebem corrente elétrica</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q5" id="q5-c" value="c">
+                <label class="form-check-label" for="q5-c"> Pelo aquecimento de um filamento</label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="q5" id="q5-d" value="d">
+                <label class="form-check-label" for="q5-d"> Pela descarga elétrica em vapor de mercúrio</label>
+              </div>
+            </fieldset>
+
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+              <button id="enviar" type="submit" class="btn btn-personalizado btn-amarelo-luz rounded-pill px-4 py-2 fw-bold" disabled>Enviar respostas</button>
+              <button id="tentar" type="reset" class="btn btn-secondary rounded-pill px-4 py-2" disabled>Tentar de novo</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer class="bg-azul-escuro text-branco-suave pt-4 pb-3 py-md-3">
@@ -91,6 +203,5 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/quiz.js"></script>
   </body>
 </html>
