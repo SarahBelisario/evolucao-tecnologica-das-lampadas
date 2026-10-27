@@ -1,0 +1,41 @@
+.pagina-sobre {
+  margin: 0;
+}
+
+.pagina-sobre .sobre-apresentacao {
+  display: flex;
+  align-items: center;
+}
+
+#exampleModalLong .equipe-foto {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .pagina-sobre {
+    height: 100vh;
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    overflow: hidden;
+  }
+
+  .pagina-sobre .sobre-layout {
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .pagina-sobre .sobre-colunas {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .pagina-sobre .sobre-apresentacao,
+  .pagina-sobre .sobre-conteudo {
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+  }
+}
