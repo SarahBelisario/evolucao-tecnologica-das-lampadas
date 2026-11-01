@@ -60,13 +60,13 @@
           class="col-12 col-lg-6 sobre-apresentacao bg-azul-marinho text-branco-suave p-4 p-xl-5"
           aria-labelledby="titulo-sobre">
           <div>
-            <p class="text-amarelo-luz text-uppercase texto-seminegrito mb-2">Sobre a equipe</p>
+            <p class="text-amarelo-luz text-uppercase texto-seminegrito mb-2">Sobre as equipes</p>
 
-            <h1 id="titulo-sobre" class="fw-bold mb-3">Quem desenvolveu este projeto?</h1>
+            <h1 id="titulo-sobre" class="fw-bold mb-3">Quem fez este projeto acontecer?</h1>
 
             <p class="lh-lg mb-4">
-              Conheça as pessoas que fazem parte do projeto Evolução das lâmpadas e descubra um pouco sobre cada uma
-              delas.
+              Conheça as equipes que construíram o projeto Evolução das lâmpadas: quem desenvolveu o site e quem
+              realizou a pesquisa e forneceu as informações sobre a história da iluminação.
             </p>
 
             <button
@@ -74,7 +74,7 @@
               class="btn btn-personalizado btn-amarelo-luz rounded-pill px-4 py-3 texto-seminegrito"
               data-bs-toggle="modal"
               data-bs-target="#exampleModalLong">
-              Conheça a equipe
+              Conheça as equipes
             </button>
           </div>
         </section>
@@ -265,62 +265,135 @@
       tabindex="-1"
       aria-labelledby="exampleModalLongTitle"
       aria-hidden="true">
-      <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-          <div class="modal-header bg-azul-marinho">
-            <h2 class="modal-title fs-5 text-amarelo-luz" id="exampleModalLongTitle">Conheça a equipe</h2>
+          <div class="modal-header bg-azul-escuro">
+            <h2 class="modal-title fs-5 text-amarelo-luz" id="exampleModalLongTitle">Quem fez o projeto</h2>
 
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
 
-          <div class="modal-body">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
-                  <img src="img/gato.jpg" class="img-fluid rounded-start equipe-foto" alt="" />
-                </div>
+          <div class="modal-body equipes-layout">
+            <section aria-labelledby="titulo-equipe-site">
+              <h3 id="titulo-equipe-site" class="fs-4 fw-bold text-azul-marinho mb-3">Desenvolvimento do site</h3>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
+                    <img
+                      src="img/equipe-dev/gabriella-foto.jpeg"
+                      class="img-fluid rounded-start equipe-foto"
+                      alt="Foto da Gabriella" />
+                  </div>
 
-                <div class="col-md">
-                  <div class="card-body">
-                    <h3 class="card-title fs-5">Sarah</h3>
-                    <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                  <div class="col-md">
+                    <div class="card-body">
+                      <h4 class="card-title fs-5">Gabriella Oliveira</h4>
+                      <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
-                  <img src="img/gato.jpg" class="img-fluid rounded-start equipe-foto" alt="" />
-                </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
+                    <img
+                      src="img/equipe-dev/heloisa-foto.png"
+                      class="img-fluid rounded-start equipe-foto"
+                      alt="Foto da Heloisa" />
+                  </div>
 
-                <div class="col-md">
-                  <div class="card-body">
-                    <h3 class="card-title fs-5">Isabela</h3>
-                    <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                  <div class="col-md">
+                    <div class="card-body">
+                      <h4 class="card-title fs-5">Heloisa Alves</h4>
+                      <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
-                  <img src="img/gato.jpg" class="img-fluid rounded-start equipe-foto" alt="" />
-                </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
+                    <img
+                      src="img/equipe-dev/isabela-foto.png"
+                      class="img-fluid rounded-start equipe-foto"
+                      alt="Foto da Isabela" />
+                  </div>
 
-                <div class="col-md">
-                  <div class="card-body">
-                    <h3 class="card-title fs-5">Carlos</h3>
-                    <p class="card-text">Curso: Elétrica | 6° semestre.</p>
+                  <div class="col-md">
+                    <div class="card-body">
+                      <h4 class="card-title fs-5">Isabela Soares</h4>
+                      <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
+                    <img
+                      src="img/equipe-dev/sthefany-foto.png"
+                      class="img-fluid rounded-start equipe-foto"
+                      alt="Foto da Sthefany" />
+                  </div>
+
+                  <div class="col-md">
+                    <div class="card-body">
+                      <h4 class="card-title fs-5">Sthefany Garcia</h4>
+                      <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
+                    <img
+                      src="img/equipe-dev/sarah-foto.jpg"
+                      class="img-fluid rounded-start equipe-foto"
+                      alt="Foto da Sarah" />
+                  </div>
+
+                  <div class="col-md">
+                    <div class="card-body">
+                      <h4 class="card-title fs-5">Sarah Belisario</h4>
+                      <p class="card-text">Curso: Sistemas de Informação | 2° semestre.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="equipe-conteudo px-4" aria-labelledby="titulo-equipe-conteudo">
+              <h3 id="titulo-equipe-conteudo" class="fs-4 fw-bold text-azul-marinho mb-3">Pesquisa e conteúdo</h3>
+              <p class="mb-3">
+                Equipe responsável pela pesquisa e pelas informações sobre a evolução das lâmpadas.
+              </p>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title fs-5">Carlos Eduardo</h4>
+                  <p class="card-text">Curso: Engenharia Elétrica</p>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title fs-5">Larissa</h4>
+                  <p class="card-text">Curso: Engenharia Elétrica</p>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h4 class="card-title fs-5">Emanoela</h4>
+                  <p class="card-text">Curso: Engenharia Elétrica</p>
+                </div>
+              </div>
+            </section>
           </div>
 
-          <div class="modal-footer bg-azul-marinho">
+          <div class="modal-footer bg-azul-escuro">
             <button
               type="button"
               class="btn btn-personalizado btn-amarelo-luz rounded-pill px-4"
