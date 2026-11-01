@@ -75,10 +75,6 @@ h6 {
   --botao-destaque: var(--amarelo-luz);
 }
 
-.text-azul-marinho {
-  color: var(--azul-marinho);
-}
-
 .bg-amarelo-suave {
   background-color: rgba(255, 194, 71, 0.1);
 }

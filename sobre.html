@@ -16,8 +16,8 @@
 
   <body class="pagina-sobre">
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-azul-escuro py-3">
-        <div class="container-fluid px-4 px-xl-5">
+      <nav class="navbar navbar-expand-md navbar-dark bg-azul-escuro py-3" aria-label="Navegação principal">
+        <div class="container">
           <img
             src="img/evolucao-lampada-logo.svg"
             alt="Evolução das lâmpadas"
@@ -62,7 +62,7 @@
           <div>
             <p class="text-amarelo-luz text-uppercase texto-seminegrito mb-2">Sobre as equipes</p>
 
-            <h1 id="titulo-sobre" class="fw-bold mb-3">Quem fez este projeto acontecer?</h1>
+            <h1 id="titulo-sobre" class="mb-3">Quem fez este projeto acontecer?</h1>
 
             <p class="lh-lg mb-4">
               Conheça as equipes que construíram o projeto Evolução das lâmpadas: quem desenvolveu o site e quem
@@ -73,21 +73,21 @@
               type="button"
               class="btn btn-personalizado btn-amarelo-luz rounded-pill px-4 py-3 texto-seminegrito"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModalLong">
+              data-bs-target="#exampleModalLong" aria-haspopup="dialog" aria-controls="exampleModalLong">
               Conheça as equipes
             </button>
           </div>
         </section>
 
         <div class="col-12 col-lg-6 sobre-conteudo">
-          <section class="p-3 border-bottom">
-            <h2 class="fs-4">Seção da pessoa 2</h2>
+          <section class="p-3 border-bottom" aria-labelledby="titulo-pessoa-2">
+            <h2 id="titulo-pessoa-2" class="fs-4">Seção da pessoa 2</h2>
 
-            <h2 class="fs-4">Da Chama ao led, o começo de tudo</h2>
+            <h3 class="fs-4">Da Chama ao led, o começo de tudo</h3>
           </section>
 
-          <section class="p-3 border-bottom">
-            <h2 class="fs-4">Gabriella</h2>
+          <section class="p-3 border-bottom" aria-labelledby="titulo-gabriella">
+            <h2 id="titulo-gabriella" class="fs-4">Gabriella</h2>
           </section>
 
           <section class="p-3 border-bottom" aria-labelledby="titulo-slides-lampada">
@@ -100,7 +100,7 @@
 
             <div
               id="carouselLampada"
-              class="carousel slide col-12 mx-auto border rounded p-2"
+              class="carousel slide border rounded p-2"
               data-bs-interval="false"
               role="region"
               aria-roledescription="carrossel"
@@ -279,8 +279,8 @@
             </div>
           </section>
 
-          <section class="p-3">
-            <h2 class="fs-4">heloisa</h2>
+          <section class="p-3" aria-labelledby="titulo-heloisa">
+            <h2 id="titulo-heloisa" class="fs-4">heloisa</h2>
           </section>
         </div>
       </div>
@@ -302,7 +302,7 @@
 
           <div class="modal-body equipes-layout">
             <section aria-labelledby="titulo-equipe-site">
-              <h3 id="titulo-equipe-site" class="fs-4 fw-bold text-azul-marinho mb-3">Desenvolvimento do site</h3>
+              <h3 id="titulo-equipe-site" class="fs-4 text-azul-marinho mb-3">Desenvolvimento do site</h3>
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-auto d-flex align-items-center justify-content-center p-3">
@@ -395,7 +395,7 @@
             </section>
 
             <section class="equipe-conteudo px-4" aria-labelledby="titulo-equipe-conteudo">
-              <h3 id="titulo-equipe-conteudo" class="fs-4 fw-bold text-azul-marinho mb-3">Pesquisa e conteúdo</h3>
+              <h3 id="titulo-equipe-conteudo" class="fs-4 text-azul-marinho mb-3">Pesquisa e conteúdo</h3>
               <p class="mb-3">
                 Equipe responsável pela pesquisa e pelas informações sobre a evolução das lâmpadas.
               </p>
@@ -433,7 +433,7 @@
     </div>
 
     <footer class="bg-azul-escuro text-branco-suave pt-4 pb-3 py-md-3">
-      <div class="container-fluid px-4 px-xl-5">
+      <div class="container px-4 px-md-3">
         <div
           class="d-flex flex-column flex-lg-row align-items-center align-items-md-start align-items-lg-center gap-3 gap-lg-4 text-center text-md-start">
           <a href="#inicio" aria-label="Voltar ao início">
@@ -459,7 +459,7 @@
             </a>
           </address>
 
-          <div class="mt-4 mt-md-0 align-self-center align-self-lg-center ms-lg-auto text-start">
+          <div class="mt-4 mt-md-0 align-self-center ms-lg-auto text-start">
             <p class="small mb-0">&copy; 2026 - Todos os direitos reservados.</p>
           </div>
         </div>
