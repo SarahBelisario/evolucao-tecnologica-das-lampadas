@@ -1,11 +1,11 @@
 .quiz-flutuante {
   width: min(22rem, 100%);
-  bottom: var(--limite-rodape, 0px);
+  bottom: 0;
   z-index: 1030;
 }
 
 .quiz-painel {
-  max-height: max(0px, calc(100dvh - 7rem - var(--limite-rodape, 0px)));
+  max-height: max(0px, calc(100dvh - 7rem));
   overflow-y: auto;
 }
 

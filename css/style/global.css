@@ -41,6 +41,11 @@ h6 {
   color: var(--amarelo-luz);
 }
 
+.text-azul-marinho {
+  color: var(--azul-marinho);
+}
+
+
 .btn-personalizado {
   color: var(--botao-texto, var(--azul-marinho));
   background-color: var(--botao-fundo);
@@ -68,10 +73,6 @@ h6 {
 .btn-ciano {
   --botao-fundo: var(--azul-ciano);
   --botao-destaque: var(--amarelo-luz);
-}
-
-.text-azul-marinho {
-  color: var(--azul-marinho);
 }
 
 .bg-amarelo-suave {

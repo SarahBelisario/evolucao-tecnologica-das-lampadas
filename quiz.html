@@ -16,7 +16,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-azul-escuro py-3">
+      <nav class="navbar navbar-expand-md navbar-dark bg-azul-escuro py-3" aria-label="Navegação principal">
         <div class="container">
           <img
             src="img/evolucao-lampada-logo.svg"
@@ -57,10 +57,10 @@
     <main id="inicio" class="container py-5">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-10 col-xl-9">
-          <h1 class="text-center text-dark mb-3">Quiz: evolução das lâmpadas</h1>
-          <p class="text-center mb-4">Teste seus conhecimentos sobre essa jornada pela luz.</p>
+          <h1 id="titulo-quiz" class="text-center text-dark mb-3">Quiz: evolução das lâmpadas</h1>
+          <p id="descricao-quiz" class="text-center mb-4">Teste seus conhecimentos sobre essa jornada pela luz.</p>
 
-          <form id="quiz" class="bg-light rounded-3 p-4 p-md-5 text-azul-marinho">
+          <form id="quiz" class="bg-light rounded-3 p-4 p-md-5 text-azul-marinho" aria-labelledby="titulo-quiz" aria-describedby="descricao-quiz">
             <fieldset data-correta="b" class="mb-4 pb-4 border-bottom">
               <legend class="fs-6 fw-bold mb-3">1. Antes da iluminação elétrica, como as pessoas produziam luz?</legend>
               <div class="form-check mb-2">
@@ -180,7 +180,9 @@
             <img src="img/evolucao-lampada-logo.svg" alt="Evolução das lâmpadas" class="img-fluid" width="220" />
           </a>
 
-          <address class="small mb-0 flex-grow-1 text-center align-self-center">
+          <hr class="d-lg-none w-100 m-0" aria-hidden="true" />
+
+          <address class="small mb-0 mt-3 mt-lg-0 flex-grow-1 text-center align-self-center">
             <a
               href="https://wa.me/5532936187777?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20projeto."
               target="_blank"
@@ -197,7 +199,7 @@
             </a>
           </address>
 
-          <div class="mt-4 mt-md-0 align-self-center align-self-lg-center ms-lg-auto text-start">
+          <div class="mt-4 mt-md-0 align-self-center ms-lg-auto text-start">
             <p class="small mb-0">&copy; 2026 - Todos os direitos reservados.</p>
           </div>
         </div>
